@@ -161,4 +161,6 @@ function LegController:Destroy()
 	return
 end
 
-return LegController
+return {
+	LegController = LegController,
+}

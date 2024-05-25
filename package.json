@@ -1,6 +1,6 @@
 {
   "name": "@pixelpirates/leg-controller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript port of Road_Gamer2's Leg Controller",
   "main": "src",
   "types": "src/types/index.d.ts",
