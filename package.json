@@ -1,5 +1,5 @@
 {
-  "name": "@rbxts/leg-controller",
+  "name": "leg-controller",
   "version": "1.0.0",
   "description": "TypeScript port of Road_Gamer2's Leg Controller",
   "main": "src",
@@ -16,7 +16,7 @@
   "homepage": "https://github.com/Coyenn/leg-controller",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Coyenn/leg-controller"
+    "url": "git+https://github.com/Coyenn/leg-controller.git"
   },
   "files": [
     "src",

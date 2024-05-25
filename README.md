@@ -5,5 +5,5 @@ Roblox-ts typings for [Leg Controller](https://devforum.roblox.com/t/leg-control
 # Installation
 
 ```
-$ npm i @rbxts/leg-controller
+$ npm i leg-controller
 ```
