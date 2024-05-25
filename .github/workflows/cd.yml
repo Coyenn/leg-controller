@@ -13,14 +13,15 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - uses: oven-sh/setup-bun@v1
+      - name: Retrieve node and npm
+        uses: actions/setup-node@v3
         with:
-          bun-version: latest
+          node-version: "20"
           registry-url: "https://registry.npmjs.org"
 
       - name: Publish to npm
         env:
-          BUN_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          bun install --frozen-lockfile
-          bun publish
+          npm install
+          npm publish
