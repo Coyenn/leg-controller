@@ -1,5 +1,5 @@
 {
-  "name": "@pixel-pirates/leg-controller",
+  "name": "@pixelpirates/leg-controller",
   "version": "1.0.0",
   "description": "TypeScript port of Road_Gamer2's Leg Controller",
   "main": "src",
